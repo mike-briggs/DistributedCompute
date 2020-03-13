@@ -109,7 +109,7 @@ body {
 }
 
 .section.colored {
-  background: #f2f2fe;
+  background: #f6f9fc;
 }
 
 .hr {
@@ -335,11 +335,26 @@ a.main-button-slider {
   transition: all 0.3s ease 0s;
 }
 
+a.main-button-dark {
+  font-size: 13px;
+  border-radius: 0px;
+  
+  padding: 12px 20px!important;
+  background-color: #f1b50c;
+  text-transform: uppercase;
+  color: #0e2439 !important;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
  a.main-button-header {
   font-size: 13px;
   border-radius: 0px;
-  padding-left: 12px;
-  padding-right:12px;
+  padding-left: 18px;
+  padding-right:18px;
   
   background-color: #00a473;
   text-transform: uppercase;
@@ -349,6 +364,10 @@ a.main-button-slider {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+a.main-button-header:hover{
+  opacity:80;
 }
 
 a.main-text-button {
@@ -429,10 +448,9 @@ header
 }
 
 .header-area .main-nav {
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.07);
   border-radius: 0px;
   min-height: 60px;
-  background: #fff;
+  background-color: #f6f9fc;
 }
 
 .header-area .main-nav .logo {
@@ -478,9 +496,9 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 13px;
-  color: #fff;
+  color: #fff ;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -488,7 +506,7 @@ header
   height: 40px;
   line-height: 40px;
   border: transparent;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.75px;
 }
 
 .header-area .main-nav .nav li a:hover {
@@ -716,7 +734,7 @@ welcome
 }
 .desc .title{
   
-  font-weight: 600 !important;
+  font-weight: 700 !important;
 }
 .opaque-hover{
   opacity: 50%;
