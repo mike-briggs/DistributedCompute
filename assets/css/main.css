@@ -140,7 +140,7 @@ body {
 
 .dark-bg .left-heading .section-title {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 42px;
   color: #fff;
   letter-spacing: 0.25px;
@@ -716,10 +716,28 @@ welcome
 }
 .desc .title{
   
-  font-weight: 700 !important;
+  font-weight: 600 !important;
+}
+.opaque-hover{
+  opacity: 50%;
+  transition-duration: 0.3s;
+  animation: rotation 128s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg) ;
+  }
+}
+.opaque-hover:hover{
+  opacity: 100%;
+  transition-duration: 0.3s;
+
 }
 .desc .text{
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: 400 !important;
 }
 
@@ -869,9 +887,12 @@ footer
 --------------------------------------------- 
 */
 footer {
+  
   background-color: #0e2439;
   padding-top: 30px;
+  
 }
+
 
 footer .social {
   overflow: hidden;
