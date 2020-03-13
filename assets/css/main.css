@@ -334,7 +334,12 @@ a.main-button-slider {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-
+.feature-img{
+  width:100%;
+  padding-left: 35%; 
+  padding-right: 35%;
+  margin-bottom:20px;
+}
 a.main-button-dark {
   font-size: 13px;
   border-radius: 0px;
