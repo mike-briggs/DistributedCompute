@@ -320,6 +320,33 @@ body {
   }
 }
 
+.tech-logos{
+  background-color: #f6f9fc; 
+  opacity:40%; 
+  padding-top:25px;
+  padding-bottom:25px;
+  transition-duration: 0.5s;
+
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: 'transparent';
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.tech-logos:hover{
+  background-color: #f6f9fc; 
+  opacity:65%; 
+  transition-duration: 0.5s;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
 a.main-button-slider {
   font-size: 13px;
   border-radius: 0px;
@@ -453,6 +480,7 @@ header
 }
 
 .header-area .main-nav {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.055);
   border-radius: 0px;
   min-height: 60px;
   background-color: #fff;
