@@ -418,7 +418,8 @@ a.main-text-button {
 }
 
 a.main-button-slider:hover {
-  opacity: 80%;
+  
+  background-color: #f1b50c;
 }
 
 a.main-button {
@@ -483,7 +484,7 @@ header
   box-shadow: 0px 0px 15px rgba(0,0,0,0.055);
   border-radius: 0px;
   min-height: 60px;
-  background-color: #fff;
+  background-color: #0e2439;
 }
 
 .header-area .main-nav .logo {
@@ -531,7 +532,7 @@ header
   display: block;
   font-weight: 400;
   font-size: 13px;
-  color: #fff ;
+  color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -651,7 +652,7 @@ header
 }
 
 .header-area.header-sticky .nav li a {
-  color: #1e1e1e;
+  color: #fff;
 }
 
 .header-area.header-sticky .nav li a.active {
@@ -660,12 +661,12 @@ header
 
 .welcome-area .header-text .move-right:hover{
   transition-duration: 0.3s;
-  transform: translateX(10px);
+  transform: translateX(20px) scale(1.01);
 }
 
 .welcome-area .header-text .move-right{
   transition-duration: 0.3s;
-  transform: translateX(0px);
+  transform: translateX(0px) scale(1);
 }
 
 @media (max-width: 1200px) {
@@ -749,6 +750,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #0e2439;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -770,7 +772,7 @@ welcome
   font-weight: 700 !important;
 }
 .opaque-hover{
-  opacity: 80%;
+  opacity: 100%;
   transition-duration: 0.3s;
   animation: rotation 88s infinite linear;
 }
@@ -783,6 +785,8 @@ welcome
   }
 }
 .opaque-hover:hover{
+  cursor: pointer;
+
   opacity: 100%;
   transition-duration: 0.3s;
 
@@ -799,13 +803,13 @@ welcome
   line-height: 44px;
   letter-spacing: 0.3px;
   margin-bottom: 30px;
-  color: #202020;
+  color: #fff;
 }
 
 .welcome-area .header-text h4 {
   font-weight: 400;
   font-size: 16px;
-  color: #202020;
+  color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
   margin-bottom: 40px;
@@ -1009,7 +1013,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #00a473 0%, #6fc495 100%);
+  background-image: linear-gradient(135deg, #0e2439 0%, #112a42 100%);
   left: 0;
   right: 0;
   top: 0;
