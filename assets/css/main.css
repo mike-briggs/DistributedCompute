@@ -567,7 +567,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #0e2439;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -581,7 +581,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #0e2439;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -628,7 +628,7 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #0e2439;
+  background-color: #fff;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -636,7 +636,7 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #0e2439;
+  background-color: #fff;
 }
 
 .header-area.header-sticky {
