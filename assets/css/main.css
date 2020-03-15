@@ -770,9 +770,9 @@ welcome
   font-weight: 700 !important;
 }
 .opaque-hover{
-  opacity: 50%;
+  opacity: 80%;
   transition-duration: 0.3s;
-  animation: rotation 128s infinite linear;
+  animation: rotation 88s infinite linear;
 }
 @keyframes rotation {
   from {
