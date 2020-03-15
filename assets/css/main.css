@@ -752,6 +752,8 @@ welcome
   justify-content: center;
   background-color: #0e2439;
   background-repeat: no-repeat;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
   background-position: center center;
   background-size: cover; 
   height: 100vh;
