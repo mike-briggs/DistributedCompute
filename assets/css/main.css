@@ -455,7 +455,7 @@ header
 .header-area .main-nav {
   border-radius: 0px;
   min-height: 60px;
-  background-color: #f6f9fc;
+  background-color: #fff;
 }
 
 .header-area .main-nav .logo {
@@ -473,7 +473,7 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  height:2em;
+  height:2.2em;
   width:auto;
 }
 
@@ -738,7 +738,7 @@ welcome
   text-align: center;
 }
 .desc .title{
-  
+  font-size:1.6em;
   font-weight: 700 !important;
 }
 .opaque-hover{
