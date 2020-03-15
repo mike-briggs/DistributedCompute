@@ -361,6 +361,20 @@ a.main-button-slider {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+a.main-button-alt {
+  font-size: 13px;
+  border-radius: 0px;
+  
+  padding: 12px 20px!important;
+  background-color: #0e2439;
+  text-transform: uppercase;
+  color: #fff !important;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 .feature-img{
   width:100%;
   padding-left: 35%; 
@@ -667,6 +681,16 @@ header
 .welcome-area .header-text .move-right{
   transition-duration: 0.3s;
   transform: translateX(0px) scale(1);
+}
+
+.welcome-area .header-text .move-up:hover{
+  transition-duration: 0.3s;
+  transform: translateY(20px) scale(1.01);
+}
+
+.welcome-area .header-text .move-up{
+  transition-duration: 0.3s;
+  transform: translateY(0px) scale(1);
 }
 
 @media (max-width: 1200px) {
