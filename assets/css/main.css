@@ -2,16 +2,16 @@
 Distributed Compute Labs
 distributed.computer
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -81,10 +81,10 @@ ul {
   margin-bottom: 0px;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -218,6 +218,22 @@ body {
   padding-bottom: 60px !important;
 }
 
+.padding-top-5 {
+  padding-top: 5px !important;
+}
+
+.padding-bottom-5 {
+  padding-bottom: 5px !important;
+}
+
+.padding-top-20 {
+  padding-top: 20px !important;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px !important;
+}
+
 .padding-top-40 {
   padding-top: 40px !important;
 }
@@ -321,8 +337,8 @@ body {
 }
 
 .tech-logos{
-  background-color: #f6f9fc; 
-  opacity:40%; 
+  background-color: #f6f9fc;
+  opacity:40%;
   padding-top:25px;
   padding-bottom:25px;
   transition-duration: 0.5s;
@@ -340,8 +356,8 @@ body {
 }
 
 .tech-logos:hover{
-  background-color: #f6f9fc; 
-  opacity:65%; 
+  background-color: #f6f9fc;
+  opacity:65%;
   transition-duration: 0.5s;
   padding-top:25px;
   padding-bottom:25px;
@@ -350,7 +366,7 @@ body {
 a.main-button-slider {
   font-size: 13px;
   border-radius: 0px;
-  
+
   padding: 12px 20px!important;
   background-color: #00a473;
   text-transform: uppercase;
@@ -363,14 +379,14 @@ a.main-button-slider {
 }
 .feature-img{
   width:100%;
-  padding-left: 35%; 
+  padding-left: 35%;
   padding-right: 35%;
   margin-bottom:20px;
 }
 a.main-button-dark {
   font-size: 13px;
   border-radius: 0px;
-  
+
   padding: 12px 20px!important;
   background-color: #f1b50c;
   text-transform: uppercase;
@@ -387,7 +403,7 @@ a.main-button-dark {
   border-radius: 0px;
   padding-left: 18px;
   padding-right:18px;
-  
+
   background-color: #00a473;
   text-transform: uppercase;
   color: #fff !important;
@@ -418,7 +434,7 @@ a.main-text-button {
 }
 
 a.main-button-slider:hover {
-  
+
   background-color: #f1b50c;
 }
 
@@ -462,10 +478,10 @@ button.main-button:hover {
 }
 
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 .header-area {
   position: fixed;
@@ -739,10 +755,10 @@ header
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 welcome
---------------------------------------------- 
+---------------------------------------------
 */
 .welcome-area {
   overflow: hidden;
@@ -755,7 +771,7 @@ welcome
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
   background-position: center center;
-  background-size: cover; 
+  background-size: cover;
   height: 100vh;
 }
 
@@ -885,10 +901,10 @@ welcome
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 contact
---------------------------------------------- 
+---------------------------------------------
 */
 
 #contact-us {
@@ -938,16 +954,16 @@ contact
   padding: 20px;
 }
 
-/* 
+/*
 ---------------------------------------------
 footer
---------------------------------------------- 
+---------------------------------------------
 */
 footer {
-  
+
   background-color: #0e2439;
   padding-top: 30px;
-  
+
 }
 
 
@@ -1008,10 +1024,10 @@ footer .copyright {
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 preloader
---------------------------------------------- 
+---------------------------------------------
 */
 #preloader {
   overflow: hidden;
