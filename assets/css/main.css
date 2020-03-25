@@ -77,6 +77,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
 }
 
+
+
 ul {
   margin-bottom: 0px;
 }
@@ -126,7 +128,7 @@ body {
 
 .left-heading .section-title {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 42px;
   color: #1e1e1e;
   letter-spacing: 0.25px;
@@ -175,6 +177,20 @@ body {
   margin-bottom: 50px;
 }
 
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .center-text.colored {
   color: #fff;
 }
@@ -187,6 +203,7 @@ body {
 
 .left-text {
   font-weight: 400;
+  text-align: left !important;
   font-size: 16px;
   color: #777;
   line-height: 28px;
@@ -219,7 +236,7 @@ body {
 }
 
 .padding-top-5 {
-  padding-top: 5px !important;
+  padding-top: 7px !important;
 }
 
 .padding-bottom-5 {
@@ -376,7 +393,7 @@ a.main-button-slider {
   border-radius: 0px;
 
   padding: 12px 20px!important;
-  background-color: #00a473;
+  background-color: #00c58df3;
   text-transform: uppercase;
   color: #fff !important;
   letter-spacing: 0.25px;
@@ -401,10 +418,17 @@ a.main-button-alt {
 }
 .feature-img{
   width:100%;
-  padding-left: 35%;
-  padding-right: 35%;
+  padding-left: 30%;
+  padding-right: 30%;
   margin-bottom:20px;
 }
+.feature-img-sd{
+  width:100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom:20px;
+}
+
 a.main-button-dark {
   font-size: 13px;
   border-radius: 0px;
@@ -447,7 +471,7 @@ a.main-text-button {
   font-weight: 600;
   background-color: 'transparent';
   text-transform: uppercase;
-  color: #00a473;
+  color: #00c58e;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -518,6 +542,10 @@ header
   transition: all 0.3s ease 0s;
 }
 
+.shadow{
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.55);
+}
+
 .header-area .main-nav {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.055);
   border-radius: 0px;
@@ -555,6 +583,19 @@ header
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   position: relative;
+  z-index: 999;
+}
+
+.tabs {
+  float: left;
+  margin-top: 27px;
+  margin-left: 0px;
+  margin-right: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  
   z-index: 999;
 }
 
@@ -718,6 +759,20 @@ header
   transform: translateY(0px) scale(1);
 }
 
+.selected {
+  border-bottom: #00a473;
+  border-style: solid;
+  
+  color: #00a473 !important;
+  border-bottom-width: 2px;
+}
+
+.one-flex{
+  text-align: center;
+  
+  flex: 1;
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
@@ -820,6 +875,10 @@ welcome
 }
 .desc .title{
   font-size:1.6em;
+  font-weight: 700 !important;
+}
+.desc .title-sm{
+  font-size:1.3em;
   font-weight: 700 !important;
 }
 .opaque-hover{
@@ -932,6 +991,41 @@ welcome
     line-height: 22px;
     margin-bottom: 40px;
   }
+}
+
+/*
+---------------------------------------------
+The distributed computer
+---------------------------------------------
+*/
+
+.box {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.055);
+  transition-duration: 0.45s;
+  padding:0px;
+  
+}
+.box .feature-img{
+  width:100%;
+  padding-left: 35%;
+  padding-right: 35%;
+  margin-bottom:20px;
+}
+.box-container{
+  padding:0px 10px;
+}
+
+.box:hover{
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+  box-shadow: 0px 0px 15px#0e24392f;
+}
+
+.box-heading{
+  background-color: #0e2439;
+  color:#fff;
+  padding: 10px 0px 10px 0px;
+  font-weight:400;
 }
 
 /*
@@ -1063,6 +1157,46 @@ footer .copyright {
   footer .footer-nav {
     margin-bottom: 30px;
   }
+}
+/*
+---------------------------------------------
+blip
+---------------------------------------------
+*/
+.jumper {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+}
+
+.jumper > div {
+  background-color: #00c58e;
+  width: 5px;
+  height: 5px;
+  border-radius: 0%;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  opacity: 0;
+  width: 25px;
+  height: 25px;
+  -webkit-animation: jumper 2s 0s linear infinite;
+  animation: jumper 2s 0s linear infinite;
+}
+
+.jumper > div:nth-child(2) {
+  -webkit-animation-delay: 0.66s;
+  animation-delay: 0.66s;
+}
+
+.jumper > div:nth-child(3) {
+  -webkit-animation-delay: 1.33s;
+  animation-delay: 1.33s;
 }
 
 /*
