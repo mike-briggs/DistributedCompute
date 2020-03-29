@@ -180,7 +180,7 @@ body {
 .iframe-container{
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
 }
 .iframe-container iframe{
@@ -607,7 +607,7 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  
+
   z-index: 999;
 }
 
@@ -774,14 +774,14 @@ header
 .selected {
   border-bottom: #00a473;
   border-style: solid;
-  
+
   color: #00a473 !important;
   border-bottom-width: 2px;
 }
 
 .one-flex{
   text-align: center;
-  
+
   flex: 1;
 }
 
@@ -1015,7 +1015,7 @@ The distributed computer
   box-shadow: 0px 0px 15px rgba(0,0,0,0.055);
   transition-duration: 0.45s;
   padding:0px;
-  
+
 }
 .box .feature-img{
   width:100%;
