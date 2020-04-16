@@ -1172,7 +1172,8 @@ Technology
 	margin: 10px;
 }
 
-.dropdown {
+.dropdown-header {
+	color: white;
 	background-color: #00a473;
 	border-radius: 10px;
 	padding: 10px;
