@@ -576,7 +576,7 @@ header
 }
 
 .header-area .main-nav .dropdown .dropbtn {
-  font-size: 13px;  
+  font-size: 13px;
   border: none;
   outline: none;
   color: white;
@@ -1147,6 +1147,29 @@ contact
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+}
+
+/*
+---------------------------------------------
+Technology
+---------------------------------------------
+*/
+
+.interactive-component {
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+}
+
+.interactive-text {
+	color: white;
+
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.interactive-row {
+	margin: 10px;
 }
 
 /*
