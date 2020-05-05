@@ -54,7 +54,7 @@ function animateText() {
 }
 
 function setText(str_in) {
-	text.innerHTML = "<b>>"+str_in+"_</b>";
+	text.innerHTML = "A Global Supercomputer for <span style=\"color: #00c58df3;\">"+str_in+"</span>";
 }
 
 function getTime() { //Returns the time since 1970 in seconds
