@@ -401,11 +401,18 @@ body {
   padding-bottom:25px;
 }
 
+a {
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
+}
+
 a.main-button-slider {
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
 
-  padding: 12px 20px!important;
+  padding: 14px 26px!important;
   background-color: #00c58df3;
   text-transform: uppercase;
   color: #fff !important;
@@ -417,7 +424,7 @@ a.main-button-slider {
 }
 a.main-button-alt {
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
 
   padding: 12px 20px!important;
   background-color: #0e2439;
@@ -444,7 +451,7 @@ a.main-button-alt {
 
 a.main-button-dark {
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
 
   padding: 12px 20px!important;
   background-color: #f1b50c;
@@ -459,7 +466,7 @@ a.main-button-dark {
 
  a.main-button-header {
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
   padding-left: 18px;
   padding-right:18px;
 
@@ -479,7 +486,7 @@ a.main-button-header:hover{
 
 a.main-text-button {
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
   padding: 12px 20px;
   font-weight: 600;
   background-color: 'transparent';
@@ -499,7 +506,7 @@ a.main-button-slider:hover {
 
 a.main-button {
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
   padding: 12px 20px;
   background-color: #e5e7e7;
   text-transform: uppercase;
@@ -520,7 +527,7 @@ button.main-button {
   border: none;
   cursor: pointer;
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
   padding: 12px 20px;
   background-color: #00a473;
   text-transform: uppercase;
@@ -934,7 +941,7 @@ welcome
   text-align: center;
 }
 .desc .title{
-  font-size:1.6em;
+  font-size:1.5em;
   font-weight: 700 !important;
 }
 .desc .title-sm{
