@@ -401,6 +401,15 @@ body {
   padding-bottom:25px;
 }
 
+.v-line {
+	border-left: 1px solid black;
+	height: 75%;
+	position: relative;
+	left: 50%;
+	top: 12.5%;
+	opacity: 50%;
+}
+
 a {
 	cursor: pointer;
 }
