@@ -403,11 +403,11 @@ body {
 
 .v-line {
 	border-left: 1px solid black;
-	height: 75%;
+	height: 66%;
 	position: relative;
 	left: 50%;
-	top: 12.5%;
-	opacity: 50%;
+	top: 16.67%;
+	opacity: 25%;
 }
 
 a {
@@ -956,6 +956,13 @@ welcome
 .desc .title-sm{
   font-size:1.3em;
   font-weight: 700 !important;
+}
+.title-link-hover {
+  color: #0e2439;
+}
+.title-link-hover:hover {
+  cursor: pointer;
+  color: #00a473;
 }
 .opaque-hover{
   opacity: 100%;
