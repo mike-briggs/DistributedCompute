@@ -2,7 +2,7 @@
 let MAX_TYPE = 0.25; //Min and max random type speed
 let MIN_TYPE = 0.05;
 
-let options = ["Bioinformatics", "Test0", "Test1", "Hello World!"]; //Text options
+let options = ["Bioinformatics", "Computational Neuroscience", "Deep Neural Networks", "Astrophysics", "Weather Mapping", "Fourier Transformations", "Differential Equations", "Markov Processes"]; //Text options
 
 //Variables
 let curOption = -1;
