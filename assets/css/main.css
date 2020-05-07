@@ -835,7 +835,7 @@ header
   transform: translateY(0px) scale(1);
 }
 
-.selected {
+li.selected {
   border-bottom: #00a473;
   border-style: solid;
 

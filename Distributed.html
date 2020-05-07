@@ -322,15 +322,18 @@
 							text-decoration: none;
 							color: #000000;
 						}
+						a.selected {
+							color: #00a473 !important;
+						}
 					</style>
 					<div class="row padding-bottom-80">
 						<ul style="display: flex; width:100%" id="myTab" role="tablist">
-							<li class="one-flex tablinks" id="networking_li"><a href="javascript:openTab('networking')">Networking</a></li>
-							<li class="one-flex tablinks" id="storage_li"><a href="javascript:openTab('storage')">Storage</a></li>
-							<li class="one-flex tablinks" id="compute_li"><a href="javascript:openTab('compute')">Compute</a></li>
-							<li class="one-flex tablinks" id="memory_li"><a href="javascript:openTab('memory')">Memory</a></li>
-							<li class="one-flex tablinks" id="providers_li"><a href="javascript:openTab('providers')">Providers</a></li>
-							<li class="one-flex tablinks" id="security_li"><a href="javascript:openTab('security')">Security</a></li>
+							<li class="one-flex tablinks" id="networking_li"><a class="tab-link" href="javascript:openTab('networking')">Networking</a></li>
+							<li class="one-flex tablinks" id="storage_li"><a class="tab-link" href="javascript:openTab('storage')">Storage</a></li>
+							<li class="one-flex tablinks" id="compute_li"><a class="tab-link" href="javascript:openTab('compute')">Compute</a></li>
+							<li class="one-flex tablinks" id="memory_li"><a class="tab-link" href="javascript:openTab('memory')">Memory</a></li>
+							<li class="one-flex tablinks" id="providers_li"><a class="tab-link" href="javascript:openTab('providers')">Providers</a></li>
+							<li class="one-flex tablinks" id="security_li"><a class="tab-link" href="javascript:openTab('security')">Security</a></li>
 						</ul>
 					</div>
 

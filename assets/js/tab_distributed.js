@@ -5,8 +5,11 @@ function openTab(tabName) {
 		tabcontent[i].style.display = "none";
 	}
 	$(".tablinks").removeClass("selected");
-	document.getElementById(tabName).style.display = "block";
+	$(".tab-link").removeClass("selected");
+	// document.getElementById(tabName).style.display = "block";
+	$("#"+tabName).fadeIn("slow", "swing", () => {});
 	document.getElementById(tabName + "_li").className += " selected";
+	$('#'+tabName+'_li')[0].children[0].className += " selected";
 }
 
 openTab('networking');
