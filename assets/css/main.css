@@ -584,7 +584,7 @@ header
   border-radius: 0px;
   min-height: 60px;
 
-  background-color: #0e2439;
+  background-color: #0b1c2e;
 }
 
 .header-area .main-nav.dropdown {
@@ -648,9 +648,14 @@ header
   height:2.2em;
   width:auto;
 }
-
-.header-area .main-nav .nav {
+.nav-left{
+  float: left;
+}
+.nav-right{
   float: right;
+}
+.header-area .main-nav .nav {
+  
   margin-top: 27px;
   margin-left: 0px;
   margin-right: 30px;
@@ -930,13 +935,13 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0e2439;
+  background: linear-gradient(120deg,#0e2439 0%, #102941 100%);
   background-repeat: no-repeat;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  height: 85vh;
 }
 
 .welcome-area .header-text {
