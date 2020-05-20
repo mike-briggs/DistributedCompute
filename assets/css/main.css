@@ -536,7 +536,7 @@ button.main-button {
   cursor: pointer;
   font-size: 13px;
   border-radius: 5px;
-  padding: 12px 20px;
+  padding: 15px 22px;
   background-color: #00a473;
   text-transform: uppercase;
   color: #fff;
@@ -1021,7 +1021,7 @@ welcome
   color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   position: relative;
 }
 
@@ -1160,6 +1160,7 @@ contact
 .contact-form input,
 .contact-form textarea {
   color: #777;
+  border-radius: 5px;
   font-size: 14px;
   border: 1px solid #eee;
   width: 100%;
@@ -1167,7 +1168,7 @@ contact
   outline: none;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 0px;
+  border-radius: 5px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
